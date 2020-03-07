@@ -592,7 +592,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-635">line 635</a></p>
+									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-640">line 640</a></p>
 								</div>
 							</div>
 			
@@ -656,7 +656,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-799">line 799</a></p>
+									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-804">line 804</a></p>
 								</div>
 							</div>
 			
@@ -670,7 +670,7 @@
 											<dt class="symbol-title function public collapsible-symbol">
 			<h4 id=".dasherize" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">dasherize</span><span class="signature-params">( <span class="signature-param">str</span>&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{string}</span></h4>
 				<div class="summary"><p>Transforms a string to dash-case
-		<a href="https://github.com/shahata/dasherize">https://github.com/shahata/dasherize</a></p></div></dt>
+		<code>https:\\/\\/github.com/shahata/dasherize</code></p></div></dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
 			<div class="callout callout-info">
@@ -799,7 +799,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-753">line 753</a></p>
+									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-758">line 758</a></p>
 								</div>
 							</div>
 			
@@ -898,7 +898,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-872">line 872</a></p>
+									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-877">line 877</a></p>
 								</div>
 							</div>
 			
@@ -1800,7 +1800,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-727">line 727</a></p>
+									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-732">line 732</a></p>
 								</div>
 							</div>
 			
@@ -2005,7 +2005,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-811">line 811</a></p>
+									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-816">line 816</a></p>
 								</div>
 							</div>
 			
@@ -2017,7 +2017,7 @@
 </dd>
 											<hr/>
 											<dt class="symbol-title function public collapsible-symbol">
-			<h4 id=".parseAngle" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">parseAngle</span><span class="signature-params">( <span class="signature-param">angle</span> [,&nbsp;<span class="signature-param">zeroCenter</span>&nbsp;]&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{float}</span></h4>
+			<h4 id=".parseAngle" class="function public"><span class="signature-attribs">&lt;static> </span><span class="name">parseAngle</span><span class="signature-params">( <span class="signature-param">angle</span> [,&nbsp;<span class="signature-param">zeroCenter</span> [,&nbsp;<span class="signature-param">halfCircle</span>&nbsp;]&nbsp;]&nbsp;)</span><span class="signature-type"> &rarr;&nbsp;{float}</span></h4>
 				<div class="summary"><p>Parses an angle value in radians or degrees and returns a normalized value in radians</p></div></dt>
 <dd class="symbol-details function public  collapsible-symbol">
 	<div class="symbol-details-inner">
@@ -2050,6 +2050,15 @@
 								<td>false</td>
 							<td class="last">
 									<p>normalize between -Pi/2 - Pi/2 instead of 0 - 2*Pi</p>
+							</td>
+						</tr>
+						<tr>
+								<td><code>halfCircle</code></td>
+							<td><span class="param-type">boolean</span></td>
+								<td class="attributes">&lt;optional&gt;<br/></td>
+								<td>zeroCenter</td>
+							<td class="last">
+									<p>normalize between -Pi - Pi instead of -Pi/2 - Pi/2</p>
 							</td>
 						</tr>
 					</tbody>
@@ -2091,7 +2100,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-592">line 592</a></p>
+									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-593">line 593</a></p>
 								</div>
 							</div>
 			
@@ -2489,7 +2498,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-679">line 679</a></p>
+									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-684">line 684</a></p>
 								</div>
 							</div>
 			
@@ -2634,7 +2643,7 @@
 							<div class="form-group">
 								<label class="col-sm-3 control-label">Source</label>
 								<div class="col-sm-9">
-									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-860">line 860</a></p>
+									<p class="form-control-static"><a href="PSVUtils.js.html">PSVUtils.js</a>, <a href="PSVUtils.js.html#line-865">line 865</a></p>
 								</div>
 							</div>
 			
@@ -2655,7 +2664,7 @@
 	</div>
 	<footer>
 				<div class="copyright">Licensed under MIT License, documentation under CC BY 3.0.</div>
-			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
+			<div class="generated-by">Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> using the <a href="https://github.com/steveush/foodoc">FooDoc template</a>.</div>
 	</footer>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

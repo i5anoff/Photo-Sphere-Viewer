@@ -2024,12 +2024,18 @@
           "visibl"
         ],
         "module-components_buttons.PSVNavBarGyroscopeButton.html#create": [
+          "api",
           "button",
           "creat",
           "function",
+          "get",
+          "gyroscop",
           "lt;protected&gt",
           "module:components/buttons.psvnavbargyroscopebutton#cr",
-          "psvnavbargyroscopebutton#cr"
+          "onc",
+          "psvnavbargyroscopebutton#cr",
+          "readi",
+          "visibl"
         ],
         "module-components_buttons.PSVNavBarGyroscopeButton.html#destroy": [
           "button",
@@ -2286,12 +2292,18 @@
           "visibl"
         ],
         "module-components_buttons.PSVNavBarStereoButton.html#create": [
+          "api",
           "button",
           "creat",
           "function",
+          "get",
+          "gyroscop",
           "lt;protected&gt",
           "module:components/buttons.psvnavbarstereobutton#cr",
-          "psvnavbarstereobutton#cr"
+          "onc",
+          "psvnavbarstereobutton#cr",
+          "readi",
+          "visibl"
         ],
         "module-components_buttons.PSVNavBarStereoButton.html#destroy": [
           "button",
@@ -2490,7 +2502,7 @@
         ],
         "PhotoSphereViewer.html#.DEFAULTS": [
           "default",
-          "http://photo",
+          "http:\\\\/\\\\/photo",
           "lt;static",
           "member",
           "object",
@@ -3588,7 +3600,7 @@
           "dash",
           "dasher",
           "function",
-          "https://github.com/shahata/dasher",
+          "https:\\\\/\\\\/github.com/shahata/dasher",
           "lt;static&gt",
           "psvutils.dasher",
           "str",
@@ -3892,6 +3904,7 @@
           "degre",
           "float",
           "function",
+          "halfcircl",
           "lt;static&gt",
           "normal",
           "pars",
@@ -4047,6 +4060,14 @@
                 "index.html": {
                   "ref": "index.html",
                   "tf": 150
+                },
+                "module-components_buttons.PSVNavBarGyroscopeButton.html#create": {
+                  "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html#create",
+                  "tf": 7.142857142857142
+                },
+                "module-components_buttons.PSVNavBarStereoButton.html#create": {
+                  "ref": "module-components_buttons.PSVNavBarStereoButton.html#create",
+                  "tf": 7.142857142857142
                 },
                 "PSVAnimation.html": {
                   "ref": "PSVAnimation.html",
@@ -4605,7 +4626,7 @@
                   },
                   "PSVUtils.html#.parseAngle": {
                     "ref": "PSVUtils.html#.parseAngle",
-                    "tf": 27.77777777777778
+                    "tf": 24.444444444444443
                   }
                 }
               }
@@ -7030,7 +7051,7 @@
                                   },
                                   "PSVUtils.html#.parseAngle": {
                                     "ref": "PSVUtils.html#.parseAngle",
-                                    "tf": 20
+                                    "tf": 16.666666666666664
                                   },
                                   "PSVUtils.html#.parsePosition": {
                                     "ref": "PSVUtils.html#.parsePosition",
@@ -8433,7 +8454,7 @@
                           "docs": {
                             "PSVUtils.html#.parseAngle": {
                               "ref": "PSVUtils.html#.parseAngle",
-                              "tf": 670
+                              "tf": 666.6666666666666
                             }
                           }
                         }
@@ -18940,6 +18961,18 @@
                       }
                     }
                   }
+                },
+                "i": {
+                  "docs": {
+                    "module-components_buttons.PSVNavBarGyroscopeButton.html#create": {
+                      "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html#create",
+                      "tf": 7.142857142857142
+                    },
+                    "module-components_buttons.PSVNavBarStereoButton.html#create": {
+                      "ref": "module-components_buttons.PSVNavBarStereoButton.html#create",
+                      "tf": 7.142857142857142
+                    }
+                  }
                 }
               }
             },
@@ -21583,6 +21616,10 @@
                         "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html#visible",
                         "tf": 668.3333333333334
                       },
+                      "module-components_buttons.PSVNavBarGyroscopeButton.html#create": {
+                        "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html#create",
+                        "tf": 7.142857142857142
+                      },
                       "module-components_buttons.PSVNavBarMarkersButton.html#visible": {
                         "ref": "module-components_buttons.PSVNavBarMarkersButton.html#visible",
                         "tf": 668.3333333333334
@@ -21590,6 +21627,10 @@
                       "module-components_buttons.PSVNavBarStereoButton.html#visible": {
                         "ref": "module-components_buttons.PSVNavBarStereoButton.html#visible",
                         "tf": 668.3333333333334
+                      },
+                      "module-components_buttons.PSVNavBarStereoButton.html#create": {
+                        "ref": "module-components_buttons.PSVNavBarStereoButton.html#create",
+                        "tf": 7.142857142857142
                       },
                       "module-components_buttons.PSVNavBarZoomButton.html#visible": {
                         "ref": "module-components_buttons.PSVNavBarZoomButton.html#visible",
@@ -21800,6 +21841,14 @@
             "docs": {},
             "t": {
               "docs": {
+                "module-components_buttons.PSVNavBarGyroscopeButton.html#create": {
+                  "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html#create",
+                  "tf": 7.142857142857142
+                },
+                "module-components_buttons.PSVNavBarStereoButton.html#create": {
+                  "ref": "module-components_buttons.PSVNavBarStereoButton.html#create",
+                  "tf": 7.142857142857142
+                },
                 "PSVUtils.html#.fullscreenEvent": {
                   "ref": "PSVUtils.html#.fullscreenEvent",
                   "tf": 17.5
@@ -22312,9 +22361,17 @@
                             "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html",
                             "tf": 10
                           },
+                          "module-components_buttons.PSVNavBarGyroscopeButton.html#create": {
+                            "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html#create",
+                            "tf": 7.142857142857142
+                          },
                           "module-components_buttons.PSVNavBarStereoButton.html": {
                             "ref": "module-components_buttons.PSVNavBarStereoButton.html",
                             "tf": 10
+                          },
+                          "module-components_buttons.PSVNavBarStereoButton.html#create": {
+                            "ref": "module-components_buttons.PSVNavBarStereoButton.html#create",
+                            "tf": 7.142857142857142
                           },
                           "PhotoSphereViewer.html#isGyroscopeEnabled": {
                             "ref": "PhotoSphereViewer.html#isGyroscopeEnabled",
@@ -26604,7 +26661,7 @@
                       },
                       "module-components_buttons.PSVNavBarGyroscopeButton.html#create": {
                         "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html#create",
-                        "tf": 35
+                        "tf": 42.14285714285714
                       },
                       "module-components_buttons.PSVNavBarGyroscopeButton.html#destroy": {
                         "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html#destroy",
@@ -26676,7 +26733,7 @@
                       },
                       "module-components_buttons.PSVNavBarStereoButton.html#create": {
                         "ref": "module-components_buttons.PSVNavBarStereoButton.html#create",
-                        "tf": 35
+                        "tf": 42.14285714285714
                       },
                       "module-components_buttons.PSVNavBarStereoButton.html#destroy": {
                         "ref": "module-components_buttons.PSVNavBarStereoButton.html#destroy",
@@ -33391,30 +33448,48 @@
                 "docs": {},
                 ":": {
                   "docs": {},
-                  "/": {
+                  "\\": {
                     "docs": {},
-                    "/": {
+                    "\\": {
                       "docs": {},
-                      "p": {
+                      "/": {
                         "docs": {},
-                        "h": {
+                        "\\": {
                           "docs": {},
-                          "o": {
+                          "\\": {
                             "docs": {},
-                            "t": {
+                            "/": {
                               "docs": {},
-                              "o": {
-                                "docs": {
-                                  "PhotoSphereViewer.html#.DEFAULTS": {
-                                    "ref": "PhotoSphereViewer.html#.DEFAULTS",
-                                    "tf": 11.666666666666666
+                              "p": {
+                                "docs": {},
+                                "h": {
+                                  "docs": {},
+                                  "o": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {},
+                                      "o": {
+                                        "docs": {
+                                          "PhotoSphereViewer.html#.DEFAULTS": {
+                                            "ref": "PhotoSphereViewer.html#.DEFAULTS",
+                                            "tf": 11.666666666666666
+                                          }
+                                        }
+                                      }
+                                    }
                                   }
                                 }
                               }
                             }
                           }
                         }
-                      },
+                      }
+                    }
+                  },
+                  "/": {
+                    "docs": {},
+                    "/": {
+                      "docs": {},
                       "s": {
                         "docs": {},
                         "t": {
@@ -33532,6 +33607,104 @@
                   "docs": {},
                   ":": {
                     "docs": {},
+                    "\\": {
+                      "docs": {},
+                      "\\": {
+                        "docs": {},
+                        "/": {
+                          "docs": {},
+                          "\\": {
+                            "docs": {},
+                            "\\": {
+                              "docs": {},
+                              "/": {
+                                "docs": {},
+                                "g": {
+                                  "docs": {},
+                                  "i": {
+                                    "docs": {},
+                                    "t": {
+                                      "docs": {},
+                                      "h": {
+                                        "docs": {},
+                                        "u": {
+                                          "docs": {},
+                                          "b": {
+                                            "docs": {},
+                                            ".": {
+                                              "docs": {},
+                                              "c": {
+                                                "docs": {},
+                                                "o": {
+                                                  "docs": {},
+                                                  "m": {
+                                                    "docs": {},
+                                                    "/": {
+                                                      "docs": {},
+                                                      "s": {
+                                                        "docs": {},
+                                                        "h": {
+                                                          "docs": {},
+                                                          "a": {
+                                                            "docs": {},
+                                                            "h": {
+                                                              "docs": {},
+                                                              "a": {
+                                                                "docs": {},
+                                                                "t": {
+                                                                  "docs": {},
+                                                                  "a": {
+                                                                    "docs": {},
+                                                                    "/": {
+                                                                      "docs": {},
+                                                                      "d": {
+                                                                        "docs": {},
+                                                                        "a": {
+                                                                          "docs": {},
+                                                                          "s": {
+                                                                            "docs": {},
+                                                                            "h": {
+                                                                              "docs": {},
+                                                                              "e": {
+                                                                                "docs": {},
+                                                                                "r": {
+                                                                                  "docs": {
+                                                                                    "PSVUtils.html#.dasherize": {
+                                                                                      "ref": "PSVUtils.html#.dasherize",
+                                                                                      "tf": 14
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
                     "/": {
                       "docs": {},
                       "/": {
@@ -33558,53 +33731,6 @@
                                             "docs": {},
                                             "/": {
                                               "docs": {},
-                                              "s": {
-                                                "docs": {},
-                                                "h": {
-                                                  "docs": {},
-                                                  "a": {
-                                                    "docs": {},
-                                                    "h": {
-                                                      "docs": {},
-                                                      "a": {
-                                                        "docs": {},
-                                                        "t": {
-                                                          "docs": {},
-                                                          "a": {
-                                                            "docs": {},
-                                                            "/": {
-                                                              "docs": {},
-                                                              "d": {
-                                                                "docs": {},
-                                                                "a": {
-                                                                  "docs": {},
-                                                                  "s": {
-                                                                    "docs": {},
-                                                                    "h": {
-                                                                      "docs": {},
-                                                                      "e": {
-                                                                        "docs": {},
-                                                                        "r": {
-                                                                          "docs": {
-                                                                            "PSVUtils.html#.dasherize": {
-                                                                              "ref": "PSVUtils.html#.dasherize",
-                                                                              "tf": 14
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              },
                                               "f": {
                                                 "docs": {},
                                                 "a": {
@@ -34132,6 +34258,26 @@
                       "PSVUtils.html#.HalfPI": {
                         "ref": "PSVUtils.html#.HalfPI",
                         "tf": 675
+                      }
+                    }
+                  }
+                },
+                "c": {
+                  "docs": {},
+                  "i": {
+                    "docs": {},
+                    "r": {
+                      "docs": {},
+                      "c": {
+                        "docs": {},
+                        "l": {
+                          "docs": {
+                            "PSVUtils.html#.parseAngle": {
+                              "ref": "PSVUtils.html#.parseAngle",
+                              "tf": 16.666666666666664
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -35385,7 +35531,7 @@
                     },
                     "PSVUtils.html#.parseAngle": {
                       "ref": "PSVUtils.html#.parseAngle",
-                      "tf": 20
+                      "tf": 16.666666666666664
                     },
                     "PSVUtils.html#.parseSpeed": {
                       "ref": "PSVUtils.html#.parseSpeed",
@@ -36011,6 +36157,14 @@
             },
             "c": {
               "docs": {
+                "module-components_buttons.PSVNavBarGyroscopeButton.html#create": {
+                  "ref": "module-components_buttons.PSVNavBarGyroscopeButton.html#create",
+                  "tf": 7.142857142857142
+                },
+                "module-components_buttons.PSVNavBarStereoButton.html#create": {
+                  "ref": "module-components_buttons.PSVNavBarStereoButton.html#create",
+                  "tf": 7.142857142857142
+                },
                 "PhotoSphereViewer.html#once": {
                   "ref": "PhotoSphereViewer.html#once",
                   "tf": 686.6666666666666
@@ -37363,7 +37517,7 @@
                         "docs": {
                           "PSVUtils.html#.parseAngle": {
                             "ref": "PSVUtils.html#.parseAngle",
-                            "tf": 20
+                            "tf": 16.666666666666664
                           }
                         }
                       }
@@ -37613,7 +37767,7 @@
           }
         }
       },
-      "length": 3114
+      "length": 3127
     },
     "corpusTokens": [
       "1",
@@ -37810,6 +37964,7 @@
       "gotomark",
       "guaranti",
       "gyroscop",
+      "halfcircl",
       "halfpi",
       "hand",
       "haspar",
@@ -37827,11 +37982,11 @@
       "html",
       "htmldivelement|svgel",
       "htmlelement",
-      "http://photo",
       "http://stackoverflow.com/a/5878101/1207670",
+      "http:\\\\/\\\\/photo",
       "https://developer.mozilla.org/en",
       "https://github.com/facebookarchive/fix",
-      "https://github.com/shahata/dasher",
+      "https:\\\\/\\\\/github.com/shahata/dasher",
       "hud",
       "i.",
       "icon",
@@ -38663,6 +38818,7 @@
       "publicmethod",
       "px",
       "radian",
+      "readi",
       "readm",
       "readonly&gt",
       "receiv",
@@ -41112,7 +41268,7 @@
       "name": "create",
       "tags": "module:components/buttons.PSVNavBarGyroscopeButton#create PSVNavBarGyroscopeButton#create create",
       "summary": "Creates the button",
-      "description": ""
+      "description": "The button gets visible once the gyroscope API is ready"
     },
     "module-components_buttons.PSVNavBarGyroscopeButton.html#destroy": {
       "id": "module-components_buttons.PSVNavBarGyroscopeButton.html#destroy",
@@ -41414,7 +41570,7 @@
       "name": "create",
       "tags": "module:components/buttons.PSVNavBarStereoButton#create PSVNavBarStereoButton#create create",
       "summary": "Creates the button",
-      "description": ""
+      "description": "The button gets visible once the gyroscope API is ready"
     },
     "module-components_buttons.PSVNavBarStereoButton.html#destroy": {
       "id": "module-components_buttons.PSVNavBarStereoButton.html#destroy",
@@ -41655,7 +41811,7 @@
       "longname": "PhotoSphereViewer.DEFAULTS",
       "name": "DEFAULTS",
       "tags": "PhotoSphereViewer.DEFAULTS DEFAULTS",
-      "summary": "Default options, see http://photo-sphere-viewer.js.org/#options",
+      "summary": "Default options, see http:\\\\/\\\\/photo-sphere-viewer.js.org/#options",
       "description": ""
     },
     "PhotoSphereViewer.html#.Error": {
@@ -42791,7 +42947,7 @@
       "longname": "PSVUtils.dasherize",
       "name": "dasherize",
       "tags": "PSVUtils.dasherize dasherize",
-      "summary": "Transforms a string to dash-case https://github.com/shahata/dasherize",
+      "summary": "Transforms a string to dash-case https:\\\\/\\\\/github.com/shahata/dasherize",
       "description": ""
     },
     "PSVUtils.html#.deepmerge": {
@@ -43017,7 +43173,7 @@
     "PSVUtils.html#.parseAngle": {
       "id": "PSVUtils.html#.parseAngle",
       "kind": "function",
-      "title": "&lt;static&gt; parseAngle( angle [, zeroCenter ] ) → {float}",
+      "title": "&lt;static&gt; parseAngle( angle [, zeroCenter [, halfCircle ] ] ) → {float}",
       "longname": "PSVUtils.parseAngle",
       "name": "parseAngle",
       "tags": "PSVUtils.parseAngle parseAngle",
